@@ -1,8 +1,13 @@
 
 #include "math_function.hpp"
 
+#include <iostream>
 double power(double base, int exponent)
 {
+    #ifdef DEBUG_TEST
+    std::cout << "DEBUG power!!!" << std::endl;
+    #endif
+    
     int result = base;
     int i;
 
