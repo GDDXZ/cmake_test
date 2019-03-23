@@ -4,7 +4,7 @@
 #include <iostream>
 double power(double base, int exponent)
 {
-    #if DEBUG_TEST
+    #if DEBUG
     std::cout << "DEBUG power!!!" << std::endl;
     #endif
     
