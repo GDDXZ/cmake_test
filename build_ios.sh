@@ -28,6 +28,9 @@ cmake -DCMAKE_BUILD_TYPE=${build_type} ../ -DCMAKE_BIN_PATH=${exe_outpath}
 echo "cmake ${build_type} finished, press enter to make"
 read
 make
+
+echo "press enter to run test"
+read
 cd ${CWD}
 # echo "${CWD}/${exe_outpath}"
 for i in ${exe_outpath}/*; do $i; done

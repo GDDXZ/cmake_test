@@ -9,6 +9,8 @@ cmake_minimum_required(VERSION 2.8)
 project(demo)
 #添加math子目录
 add_subdirectory(math)
+#添加openssl_util子目录
+add_subdirectory(openssl_util)
 
 # 设定头文件路径
 set(test_includes math/)
