@@ -11,9 +11,11 @@ project(demo)
 add_subdirectory(math)
 #添加openssl_util子目录
 add_subdirectory(openssl_util)
+#添加 src 子目录
+add_subdirectory(src)
 
 # 设定头文件路径
-set(test_includes math/)
+set(test_includes math/ src/)
 
 # 设定代码依赖库
 set(test_depends MathFunctions)
