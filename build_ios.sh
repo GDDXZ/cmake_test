@@ -35,3 +35,6 @@ cd ${CWD}
 # echo "${CWD}/${exe_outpath}"
 for i in ${exe_outpath}/*; do $i; done
 echo "please check result"
+
+read -p "press enter to make install or ctrl+c to stop"
+cd ${build_path} && make install

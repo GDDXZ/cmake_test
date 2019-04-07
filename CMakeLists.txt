@@ -4,6 +4,8 @@ cmake_minimum_required(VERSION 2.8)
 # message
 #message(STATUS "!!!!!!!!!!!!!!!!,CMAKE_GENERATOR := ${CMAKE_GENERATOR}")
 #message(STATUS "++++++++++++++++,CMAKE_CURRENT_SOURCE_DIR := ${CMAKE_CURRENT_SOURCE_DIR}")
+set (utils_public_dir ${CMAKE_CURRENT_SOURCE_DIR}/../utils_public/)
+message ( STATUS "utils_public_dir=${utils_public_dir}" )
 
 # 项目信息
 project(demo)
